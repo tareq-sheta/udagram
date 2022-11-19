@@ -8,7 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy1": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
-    "deploy": "npm install -f && npm run build && aws s3 cp --recursive  ./www s3://tareq.front.bucket/",
+    "deploy": "npm install -f && npm run build && aws s3 cp --recursive ./www s3://tareq.front.bucket/",
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
