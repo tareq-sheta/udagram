@@ -1,5 +1,19 @@
 # Hosting a Full-Stack Application
 
+##impotant notes:
+1) the link to the site is : http://tareq.front.bucket.s3-website-us-east-1.amazonaws.com/
+-------
+2) the screenshots  of :
+    a) eb health
+    b) database running
+    c) circleci env variables
+    d) eb are provided in the 
+    d) general diagram how sevices are connected
+    e) and pipeline diagram
+are provided in the screenshots folder in the repo
+-------
+
+
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---

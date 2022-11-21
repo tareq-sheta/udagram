@@ -24,6 +24,4 @@ export class FeedProviderService {
     const feed = [res, ...this.currentFeed$.value];
     this.currentFeed$.next(feed);
     return res;
-  }
-
-}
+  }}

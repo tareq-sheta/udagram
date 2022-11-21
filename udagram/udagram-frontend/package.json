@@ -11,6 +11,7 @@
     "deploy": "npm install -f && npm run build && aws s3 cp --recursive ./www s3://tareq.front.bucket/",
     "test": "ng test --watch=false",
     "lint": "ng lint",
+    "lint1": "eslint . --ext .ts --fix",
     "e2e": "ng e2e"
   },
   "private": true,
